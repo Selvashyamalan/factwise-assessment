@@ -1,0 +1,49 @@
+.dialog-box{
+    width: 420px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid gainsboro;
+    position: fixed;
+    top: 450px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.dialog-message{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dialog-confirm{
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.confirm-cancel{
+    padding: 10px 20px;
+    border: none;
+    box-shadow: #ffffff;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.confirm-delete{
+    padding: 10px 20px;
+    border:none;
+    background-color: orangered;
+    color: #ffffff;
+    margin: 0px 10px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    .dialog-box{
+        width: 300px;
+    }
+}

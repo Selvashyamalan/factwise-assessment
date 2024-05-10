@@ -1,0 +1,243 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    max-width: 1130px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.list-input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+
+.list-heading{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    margin-left: 19px;
+    align-self: flex-start;
+}
+
+.search{
+    width: 450px;
+    padding: 10px 20px;  
+    font-family: inherit; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: 500;
+    background-color:snow;
+    color: #000000;
+}
+
+.accordian{
+    width: 450px;
+    border: 2px solid gainsboro;
+    margin: 10px 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.InputNameField{
+    display: flex;
+}
+
+
+.celebrity-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.celebrity{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.celebrity-name{
+    font-size: 24px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.celebrity-picture{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.celebrities-dob-gen-country{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.description{
+    margin-top: 10px;
+}
+
+.plus-minus{
+    font-size: 30px;
+    font-weight: lighter;
+    cursor: pointer;
+    outline: none;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 28px;
+    margin-right: 0px;
+    font-size: 22px;
+}
+
+.delete{
+    color: red;
+}
+
+.edit{
+    color:darkslateblue;
+}
+
+.non-editable-heading{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: lighter;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+.non-editable-text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+.label{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.edit{
+    margin: 0px 20px;
+}
+
+
+.edit_age{
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-family: inherit;
+    background-color: #e1eedd;
+    outline: none;
+}
+
+
+.edit_gender{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    font-family: inherit;
+    outline: none;
+    border-radius: 8px;
+    background-color: #e1eedd;
+}
+
+.edit_country{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    font-family: inherit;
+    background-color: #e1eedd;
+    outline: none;
+    border-radius: 8px;
+}
+
+
+
+.edit_name{
+    width: 120px;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    background-color: #e1eedd;
+}
+
+.edit_description{
+    width: 96%;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    background-color: #e1eedd;
+    margin-bottom: 5px;
+}
+
+.cancel{
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: azure;
+}
+
+.save{
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: azure;
+}
+
+@media  screen and (max-width:600px) {
+    .container{
+        margin: 30px 20px;
+        width:100vw;
+        
+    }
+
+    .list-input-container{
+        width: 95%;
+        box-shadow: none;
+    }
+
+    .search{
+        width: 90%;
+    }
+
+    .accordian{
+        width: 360px;
+        border: 2px solid gainsboro;
+        margin: 10px 20px;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 3px;
+    }
+}
